@@ -5,17 +5,17 @@
       <div class="home">
         <img class="home-img" src="@/assets/p3.png" />
       </div>
-      <div class="first-heading">
+       <div class="first-heading">
         <h1>
           ENDLESS DIGITAL
           <br />POSSIBILITIES
         </h1>
         <p>
-          RPL techno was able to do most of innovative web
-          <br />designs because of this technological area in the are
-          <br />of shield in designs
+          RPL techno - A Promising firm with innovative web technologies
+          <br />delivering the best services to the clients
+          <br />With the best expertise.
         </p>
-        <a href="#" class="btn btn-contact">Contact Us</a>
+        <a href="/contact" class="btn btn-contact">Contact Us</a>
       </div>
 
       <div class="box-1">
@@ -32,8 +32,8 @@
         <img class="box-img" src="@/assets/vision.svg" />
         <h1>Vision</h1>
         <p>
-          To be #1 digital company in the Mother Earth
-          where RPL Techno become synonyms for
+          To be No.1 digital company in the Planet
+          where RPLTechno becomeS a synonym for
           quality, reliability and trusted digital products
           and services.
         </p>
@@ -42,7 +42,8 @@
         <img class="box-img" src="@/assets/value.svg" />
         <h1>Value</h1>
         <p>
-          Believes in Healthy Minds, Employee
+          We believe in deliberating a Healthy work
+          flow, Employee
           Satisfaction, Customer Satisfaction.
         </p>
       </div>
@@ -54,8 +55,8 @@
       <div class="about-heading">
         <h1>About RPL Techno</h1>
         <p>
-          RPLTechno is one of the Excellent Digital Marketing
-          <br />and Web Designing Company, We help the
+          RPLTechno a promising startups primarily into Software Development   
+          <br />and  Digital marketing, We help the
           <br />Organisation to grow their Business through the
           <br />modern techniques by bringing them in Digital and
           <br />Advising them the growing strategy of their business
@@ -80,20 +81,20 @@
         <p>
           Our Core engineering team focuses on Software Development
           <br />driven by Agile, Domain Design and Test-Driven Principles.
-          <br />We follow flexible agile development methodology to ensure
+          <br />We follow flexible agile development methodology to ensure complete requirement satisfaction.
         </p>
-        <a href="#" class="btn btn-read">Read More</a>
+        <a href="/readmore" class="btn btn-read">Read More</a>
       </div>
     </div>
     <div class="services-section1">
       <div class="heading-serviecs1">
         <h1>Mobile App Development</h1>
         <p>
-          Our Core engineering team focuses on Software Development
-          <br />driven by Agile, Domain Design and Test-Driven Principles.
-          <br />We follow flexible agile development methodology to ensure
+          We have are highly experienced in building cloud ready mobile apps
+          <br />We build scalable applications and APIs that are cloud compatible.
+          <br />our solutions can be easily migrated without any change in underlining architecture.
         </p>
-        <a href="#" class="btn btn-dark">Read More</a>
+        <a href="/readmore" class="btn btn-dark">Read More</a>
       </div>
       <div class="mobiledevelopment">
         <img class="mobile-img" src="@/assets/webimg2.svg" />
@@ -106,22 +107,22 @@
       <div class="heading-serviecs">
         <h1>Digital Marketing</h1>
         <p>
-          Our Core engineering team focuses on Software Development
-          <br />driven by Agile, Domain Design and Test-Driven Principles. We
-          <br />follow flexible agile development methodology to ensure
+          RPLTechno has centered itself in the middle of digital revolution.
+          <br />We offer world class, 360<sup>0</sup> marketing solutions that your business needs.
+          <br />Our team will deliver it all professionally to compete with this digital era.
         </p>
-        <a href="#" class="btn btn-read">Read More</a>
+        <a href="/readmore" class="btn btn-read">Read More</a>
       </div>
     </div>
     <div class="services-section1">
       <div class="heading-serviecs1">
         <h1>Search Engine Optimization</h1>
         <p>
-          Our Core engineering team focuses on Software Development
-          <br />driven by Agile, Domain Design and Test-Driven Principles.
-          <br />We follow flexible agile development methodology to ensure
+          We have been hired by 50+ companies to make their online advertising more profitable.
+          <br />We can likely help you do the same and get better conversion rates.
+          <br />We help you  turn wasteful ad spends into sustained profitability.
         </p>
-        <a href="#" class="btn btn-dark">Read More</a>
+        <a href="/readmore" class="btn btn-dark">Read More</a>
       </div>
       <div class="mobiledevelopment">
         <img class="mobile-img" src="@/assets/webimg4.svg" />
@@ -176,10 +177,26 @@
             <img class="partner-imgs" src="@/assets/p7.png" />
           </a>
         </div>
-        <div class="partners-box"></div>
-        <div class="partners-box"></div>
-        <div class="partners-box"></div>
-        <div class="partners-box"></div>
+        <div class="partners-box">
+          <a href="#">
+            <img class="partner-imgs1" src="@/assets/p26.png" />
+          </a>
+        </div>
+        <div class="partners-box">
+          <a href="#">
+            <img class="partner-imgs1" src="@/assets/p27.png" />
+          </a>
+        </div>
+        <div class="partners-box">
+          <a href="#">
+            <img class="partner-imgs1" src="@/assets/p28.png" />
+          </a>
+        </div>
+        <div class="partners-box">
+          <a href="#">
+            <img class="partner-imgs1" src="@/assets/p29.png" />
+          </a>
+        </div>
       </div>
 
       <div class="heading-secoand2">
@@ -187,24 +204,10 @@
       </div>
       <div class="rpl-section">
         <div class="rpl-video">
-          <iframe
-            width="350"
-            height="275"
-            src="https://www.youtube.com/embed/yQimoqo0-7g"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+         <iframe width="350" height="275" src="https://www.youtube.com/embed/4SOdkDcj_30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="rpl-video">
-          <iframe
-            width="350"
-            height="275"
-            src="https://www.youtube.com/embed/yQimoqo0-7g"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+         <iframe width="350" height="275" src="https://www.youtube.com/embed/u3_MmM_5d2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -242,6 +245,7 @@
               ></b-form-input>
             </b-form-group>
             <pre class="mt-3 mb-0">{{ text }}</pre>
+          
             <div class="submit-button">
               <b-button type="submit" variant="primary">Submit</b-button>
             </div>
@@ -292,7 +296,6 @@ export default {
 .home-section {
   position: relative;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -311,13 +314,13 @@ export default {
   margin: 7rem;
 }
 .first-heading h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
   line-height: 1.3;
   font-family: 'Ubuntu', sans-serif;
 }
 .first-heading p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: white;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -430,10 +433,12 @@ export default {
 }
 .about-heading {
   margin: 20rem 1rem 0 1rem;
+ 
 }
 .about-heading h1 {
   color: #071e3d;
   font-size: 2.7rem;
+  text-align: justify;
    font-family: 'Ubuntu', sans-serif;
 }
 .about-heading p {
@@ -589,13 +594,7 @@ export default {
     opacity: 1;
   }
 }
-.fire-img {
-  position: absolute;
-  width: 5rem;
-  height: 4rem;
-  top: 8rem;
-  left: 26rem;
-}
+
 .layout-gray {
   background: #eeeeee 0% 0% no-repeat padding-box;
 }
@@ -630,6 +629,10 @@ export default {
 .partner-imgs {
   width: 11rem;
   height: 5rem;
+}
+.partner-imgs1 {
+  width: 12rem;
+  height: 6rem;
 }
 .heading-secoand1 {
   margin: 13rem 0 3rem 0;
@@ -736,7 +739,7 @@ export default {
     padding: 1rem 4rem 1rem 2rem;
   }
   .btn-contact {
-    margin: 3rem 1rem 1rem 2rem;
+    margin: 3rem 1rem 1rem 2.8rem;
     background: #87FFFF 0% 0% no-repeat padding-box;
 box-shadow: -12px 9px 9px #000720;
 border-radius: 3px;
@@ -748,6 +751,7 @@ font-size: 1.8rem;
   .box-1 {
     width: auto;
     height: 25rem;
+   padding: 0 1rem 0 1rem;
     top: 30rem;
     left: 0;
   }
@@ -775,6 +779,8 @@ font-size: 1.8rem;
   .box-2 p {
     text-align: center;
     font-size: 1rem;
+    padding: 0 1rem 0 1rem;
+    
     color: #136f5f;
   }
   .box-3 {
@@ -791,11 +797,12 @@ font-size: 1.8rem;
   .box-3 p {
     text-align: center;
     font-size: 1rem;
+    padding: 0 .2rem 0 .2rem;
     color: #136f5f;
   }
   .box-img {
     width: 11rem;
-    height: 11rem;
+    height: 12rem;
     margin: 1rem 0 0 5.5rem;
   }
   .about-section {
@@ -803,8 +810,7 @@ font-size: 1.8rem;
   }
   .about-members {
     margin: 0 1rem 0 1rem;
-    background-image: url("../../assets/helfcircle.svg");
-    background-size: 105% 135%;
+   
   }
   .about-img {
     width: 17rem;
@@ -826,10 +832,15 @@ font-size: 1.8rem;
   }
   .heading-secoand {
     margin-top: 2rem;
-    font-size: 1.5rem;
+ 
     text-align: left;
     color: #071e3d;
     padding-left: 2rem;
+  }
+   .heading-secoand h1 {
+   
+    font-size: 1.8rem;
+   
   }
   .services-section {
     margin-top: 2rem;
@@ -847,12 +858,13 @@ font-size: 1.8rem;
   }
   .heading-serviecs h1 {
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .heading-serviecs p {
     color: #ffffff;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding-top: 1rem;
+    text-align: justify;
   }
   .btn-read {
    background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -922,14 +934,18 @@ font-size: 1.8rem;
   height: 8rem;
    
 }
+
   .layout-gray {
-    background: #eeeeee 0% 0% no-repeat padding-box;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
-  .heading-secoand1 {
-    margin: 2rem 0 1rem 0;
-    padding: 2rem 0 1rem 0;
-    font-size: 2rem;
+  .heading-secoand1  {
+    margin:2rem;
+  
+  
+  }
+  .heading-secoand1 h1{
+     font-size: 1.8rem;
+       padding: 0 0 0 0;
   }
 
   .project-section {
@@ -949,9 +965,13 @@ font-size: 1.8rem;
     width: 9rem;
     height: 5rem;
   }
-  .heading-secoand2 {
-    margin-top: 2rem;
-    font-size: 2rem;
+  .partner-imgs1 {
+  width: 10rem;
+  height: 6rem;
+}
+  .heading-secoand2 h1{
+    margin-top: 1rem;
+    font-size: 1.8rem;
   }
   .rpl-section {
     margin-top: 1rem;

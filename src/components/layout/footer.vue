@@ -41,19 +41,19 @@
         <h1>CONTACT US</h1>
         <hr class="line3" />
         <p>
-          <img class="contact-img" src="@/assets/emailwhite.svg" />info@rpltechno.com
+          <a href="#" class="white"> <img class="contact-img" src="@/assets/emailwhite.svg" />info@rpltechno.com</a>
         </p>
         <p>
-          <img class="contact-img" src="@/assets/locationwhite.svg" />7795598779
+          <a href="#" class="white"> <img class="contact-img" src="@/assets/locationwhite.svg" />7795598779</a>
         </p>
         <p>
-          <img class="contact-img" src="@/assets/locationwhite.svg" /> 6366178925
+          <a href="#" class="white"> <img class="contact-img" src="@/assets/locationwhite.svg" /> 6366178925</a>
         </p>
         <p>
-          <img class="contact-img" src="@/assets/phonewhite.svg" />KR Puram, Bangalore
+          <a href="#" class="white"> <img class="contact-img" src="@/assets/phonewhite.svg" />KR Puram, Bangalore</a>
         </p>
         <p>
-          <img class="contact-img" src="@/assets/phonewhite.svg" />Bensontown, Bangalore
+           <a href="#" class="white"><img class="contact-img" src="@/assets/phonewhite.svg" />Bensontown, Bangalore</a>
         </p>
       </div>
       <hr class="line2" />
@@ -151,9 +151,12 @@ export default {};
   color: #d2d2d2;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.white{
+  color: white;
+}
 @media screen and (max-width: 800px) {
   .footer-secetion {
-    margin-top: 3rem;
+    margin-top: 0;
     justify-content: space-around;
   }
   .left1 {
@@ -191,7 +194,7 @@ export default {};
   .right p {
     font-size: 0.9rem;
     line-height: 1.3;
-    padding: 0 0 0 1rem;
+    padding: 0 1rem 0 0;
   }
   .line {
     width: 100%;

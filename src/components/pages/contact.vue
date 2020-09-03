@@ -9,7 +9,7 @@
         </h1>
         <p>
           RPL Techno recognized by the best business dealers
-          <br />of making them good quality of web designs
+          <br />of making them good quality of Web/mobile apps
           <br />to get their end of need
         </p>
       </div>
@@ -50,9 +50,9 @@
               ></b-form-input>
             </b-form-group>
             <pre class="mt-3 mb-0">{{ text }}</pre>
-            <div class="submit-button">
-              <b-button type="submit" variant="primary">Submit</b-button>
-            </div>
+
+            <b-button type="submit" variant="primary">Submit</b-button>
+
             <hr class="line" />
             <h1 class="special">
               OTHER WAYS TO
@@ -63,25 +63,25 @@
             <div class="contact-logo">
               <div class="fb1">
                 <p>
-                  <img class="all-img" src="@/assets/call.svg" />7795598779
+                <a href="#" class="white">  <img class="all-img" src="@/assets/call.svg" />7795598779</a>
                 </p>
                 <p>
-                  <img class="all-img" src="@/assets/email.svg" />info@rpltechno.com
+                  <a href="#" class="white">  <img class="all-img" src="@/assets/email.svg" />info@rpltechno.com</a>
                 </p>
                 <p>
-                  <img class="all-img" src="@/assets/email1.svg" />www.yourdomain.com
+                  <a href="www.rpltechno.com" class="white">  <img class="all-img" src="@/assets/email1.svg" />www.rpltechno.com</a>
                 </p>
               </div>
 
               <div class="fb2">
                 <p>
-                  <img class="all-img" src="@/assets/fb.svg" />RPLTechno
+                   <a href="https://www.facebook.com/rpltechno/" class="white"> <img class="all-img" src="@/assets/fb.svg" />RPLTechno</a>
                 </p>
                 <p>
-                  <img class="all-img" src="@/assets/tw.svg" />RPLTechno_tech
+                  <a href="https://twitter.com/RPLtechno" class="white">  <img class="all-img" src="@/assets/tw.svg" />RPLTechno_tech</a>
                 </p>
                 <p>
-                  <img class="all-img" src="@/assets/tw1.svg" />_RPLTechno
+                  <a href="https://www.instagram.com/rpltechno/" class="white">  <img class="all-img" src="@/assets/tw1.svg" />_RPLTechno</a>
                 </p>
               </div>
             </div>
@@ -231,6 +231,9 @@ export default {
   justify-content: center;
 
   width: 30rem;
+}
+.white{
+  color: white;
 }
 .fb1 {
   margin: 0 1.7rem 0 0;

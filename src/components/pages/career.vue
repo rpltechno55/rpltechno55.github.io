@@ -8,7 +8,7 @@
           <br />
           <strong>Hiring!</strong>
         </h1>
-        <p>RPL Techno is hiring for best developers in the industrial prospect. All the persons who are looking for jobs are welcome to take an interview</p>
+        <p>RPLTechno is hiring the best developers in the industrial prospect. Anyone who is looking for jobs are welcome to Apply for the job.</p>
       </div>
       <div class="hiring">
         <img class="hiring-img" src="@/assets/p17.png" />
@@ -23,9 +23,42 @@
           <q>The greatest asset of Company is its people</q>
         </h2>
         <p>-Jorge Paulo Lemann</p>
-        <h3>Our team is the secret of our success that’s what made us best and we look out for the best. We are always open for people who can takeover challenges and be a part of our problems in turn developing world class solutions to our clients.</h3>
-        <h4>At RPLTechno we build relations with employees so working at RPLTechno is much more than working for any other Web development company. We run our business on passion, intensity and a charisma for responsibility and ownership. If you want to take up challenges and be a part of our awesome team filled with superhero traits please apply below we will definitely reach out to you</h4>
-        <a href="#" class="btn btn-blue">Apply Now</a>
+        <h4>Our team is the secret of our success that’s what made us best and we look out for the best. We are always open for people who can takeover challenges and be a part of our problems in turn developing world class solutions to our clients.</h4>
+       <br>
+        <h5>At RPLTechno we build relations with employees so working at RPLTechno is much more than working for any other Web development company. We run our business on passion, intensity and a charisma for responsibility and ownership. If you want to take up challenges and be a part of our awesome team filled with superhero traits please apply below we will definitely reach out to you</h5>
+      </div>
+    </div>
+    <div class="form-section">
+      <div class="form">
+        <div class="form-group">
+          <b-form @submit="onSubmit" v-if="show">
+            <b-form-group id="input-group-1" label-for="input-1">
+              <b-form-input id="input-1" v-model="form.name" required placeholder="Name"></b-form-input>
+            </b-form-group>
+
+            <b-form-group id="input-group-2" label-for="input-2">
+              <b-form-input
+                id="input-2"
+                v-model="form.email"
+                type="email"
+                required
+                placeholder="Email"
+              ></b-form-input>
+            </b-form-group>
+
+            <b-form-group id="input-group-3" label-for="input-3">
+              <b-form-input id="input-3" v-model="form.phone" required placeholder="Contact number"></b-form-input>
+            </b-form-group>
+
+            <div class="uplod-file">
+              <form method="post" action enctype="multipart/form-data">
+                <!-- <div class="uploadExtensionError" style="display: none">Only PDF allowed!</div>Upload your CV:
+                <input type="file" name="item_file" /> -->
+                <input type="submit" id="submit" value="Apply Now" />
+              </form>
+            </div>
+          </b-form>
+        </div>
       </div>
     </div>
     <footers />
@@ -38,6 +71,32 @@ export default {
   components: {
     headers,
     footers
+  },
+  data() {
+    return {
+      form: {},
+      show: true
+    };
+  },
+  methods: {
+    onSubmit(evt) {
+      evt.preventDefault();
+      alert(JSON.stringify(this.form));
+    },
+    onReset(evt) {
+      evt.preventDefault();
+      // Reset our form values
+      this.form.email = "";
+      this.form.name = "";
+      this.form.phone = "";
+      this.form.text = "";
+
+      // Trick to reset/clear native browser form validation state
+      this.show = false;
+      this.$nextTick(() => {
+        this.show = true;
+      });
+    }
   }
 };
 </script>
@@ -107,33 +166,64 @@ export default {
   color: #05103a;
   font-size: 1rem;
 }
-.heading-second h3 {
-  text-align: center;
-   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #05103a;
-  font-size: 1.6rem;
-  padding: 5rem 0 5rem 0;
-}
+
 .heading-second h4 {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #05103a;
   font-size: 1.6rem;
 }
-.btn-blue {
+.heading-second h5 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #05103a;
+  font-size: 1.6rem;
+}
+.form-section {
+  position: relative;
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+
+.form {
+  margin: 0;
+}
+.form-group {
+  width: 32rem;
+  margin: 2rem;
+}
+#input-1 {
+  border: none;
+  border-bottom: 2px solid #83a4c5;
+}
+#input-2 {
+  border: none;
+  border-bottom: 2px solid #83a4c5;
+}
+#input-3 {
+  border: none;
+  border-bottom: 2px solid #83a4c5;
+}
+.uplod-file {
+  margin-left: 2.5rem;
+}
+
+#submit {
   background: #05103a 0% 0% no-repeat padding-box;
   border-radius: 18px;
   color: white;
   font-family: "Ubuntu", sans-serif;
-  margin:1rem 0 4rem 24rem;
+  margin: 2rem 0 4rem 8rem;
   width: 9rem;
   height: 2.7rem;
-
 }
-.btn-blue:hover {
-  background:lightslategray;
+#submit:hover {
+  background: lightslategray;
   color: white;
-  
 }
 
 @media screen and (max-width: 800px) {
@@ -175,24 +265,32 @@ export default {
   .heading-second p {
     font-size: 0.8rem;
   }
-  .heading-second h3 {
-    text-align: center;
-    color: #05103a;
-    font-size: 1.1rem;
-    padding: 2rem 1rem 3rem 1rem;
-  }
+  
   .heading-second h4 {
     text-align: center;
     color: #05103a;
     font-size: 1.1rem;
     padding: 0 1rem 0 1rem;
   }
-  .btn-blue {
-   background: #05103A 0% 0% no-repeat padding-box;
-border-radius: 3px;
+  .heading-second h5 {
+    text-align: center;
+    color: #05103a;
+    font-size: 1.1rem;
+    padding: 0 1rem 0 1rem;
+  }
+  .form-group {
+    width: 17rem;
+    margin: 1rem;
+  }
+  .uplod-file {
+    margin-left: 1rem;
+  }
+ #submit {
+    background: #05103a 0% 0% no-repeat padding-box;
+    border-radius: 3px;
     color: white;
-    margin: 2rem 0 1rem 2rem;
-    width: 18rem;
+    margin: 2rem 0 1rem 0;
+    width: 17rem;
     height: 3rem;
     font-size: 1.2rem;
   }

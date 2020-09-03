@@ -5,135 +5,63 @@
     </div>
 
     <template id="navBar">
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-white"
-        v-bind:class=" { 'navbarOpen': show }"
-      >
-        <a class="navbar-brand" href="#">
-          <img class="main-logo" src="@/assets/p1.png" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          @click.stop="toggleNavbar()"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse"
-          id="navbarSupportedContent"
-          v-bind:class="{ 'show': show }"
-        >
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/">
-                Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/about">
-                About
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/services">
-                Services
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/blog">
-                Blog
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/contact">
-                Contact us
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/career">
-                Career
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <b-navbar class="navbar navbar-light bg-white" toggleable="lg" type="dark" variant="primary">
+        <b-navbar-brand class="navbar-brand" href="/"><img class="main-logo" src="@/assets/p1.png" /></b-navbar-brand>
+          <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+          <b-collapse id="nav-collapse" is-nav>
+            <b-navbar-nav id="navbarSupportedContent" class="nav-item ml-auto">
+              <b-nav-item href="/">HOME</b-nav-item>
+              <b-nav-item href="/about">ABOUT</b-nav-item>
+              <b-nav-item href="/services">SERVICES</b-nav-item>
+              <b-nav-item href="/blog">BLOG</b-nav-item>
+              <b-nav-item href="/career">CAREER</b-nav-item>
+              <b-nav-item href="/contact">CONTACT</b-nav-item>
+            </b-navbar-nav>
+          </b-collapse>
+         </b-navbar>
     </template>
   </div>
 </template>
  
-<script>
-export default {
-  props: {
-    msg: String
-  },
-  data() {
-    return {
-      show: true
-    };
-  },
-  methods: {
-    toggleNavbar() {
-      this.show = !this.show;
-    }
-  }
-};
+<script>//RPLTechno
 </script>
 <style scoped>
-#navbarSupportedContent {
-  margin-left: 40rem;
-  background: white;
+.navbar-dark .navbar-nav .nav-link {
+    color: #071e3d;
+    margin: 0 2rem 0 2rem;
+    font-family: 'Ubuntu', sans-serif;
 }
-#navbarSupportedContent a {
-  margin: 1rem 2.5rem 1rem 1rem;
- border: 1px solid #ccffff;
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #071e3d;
+    
+}
+.navbar-dark .navbar-nav .nav-link:active {
+  color: #071e3d;
+   border: 1px solid #ccffff;
   border-radius: 6px;
-  padding: 0.5rem 1rem 0.5rem 1rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
 .main-logo {
   width: 10rem;
   margin: 0 0 0 3rem;
 }
 @media screen and (max-width: 800px) {
-  #navbarSupportedContent {
-    margin-left: 7rem;
-    background: #000726 0% 0% no-repeat padding-box;
-
-    opacity: 1;
-  }
-  #navbarSupportedContent a {
-    margin: 1rem 2.5rem 1rem 1rem;
-    border: none;
-    font-size: 1.2rem;
-    border-radius: 6px;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+  .navbar-dark .navbar-nav .nav-link {
     color: white;
-  }
+    margin: 0 0 1rem 9rem;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:active {
+ color: white;
+  border: none;
+  border-radius: none;
+}
   .bg-white {
     background-color: #000726 !important;
+     
   }
-  .navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    content: "";
-    background: no-repeat center center;
-    background-size: 100% 100%;
-    background-color: white;
-    color: white;
-  }
+ 
   .navbar-light .navbar-toggler {
     color: white;
     border: 1.5px solid white;

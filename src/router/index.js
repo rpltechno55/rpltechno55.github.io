@@ -6,6 +6,8 @@ import services from "@/components/pages/services.vue"
 import blog from "@/components/pages/blog.vue"
 import career from "@/components/pages/career.vue"
 import contact from "@/components/pages/contact.vue"
+import readmore from "@/components/pages/readmore.vue"
+import readmoreblog from "@/components/pages/readmoreblog.vue"
 import fournotfour from "@/components/pages/fournotfour.vue"
 Vue.use(Router)
 export default new Router({
@@ -40,6 +42,16 @@ export default new Router({
             path:"/contact",
             name:'contact',
             component:contact
+        },
+        {
+            path:"/readmore",
+            name:'readmore',
+            component:readmore
+        },
+        {
+            path:"/readmoreblog",
+            name:'readmoreblog',
+            component:readmoreblog
         },
         {
             path:"*",

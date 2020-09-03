@@ -19,7 +19,7 @@
           <br />We help the Organisation to grow their Business through the modern techniques by
           <br />bringing
         </p>
-        <a href="#" class="btn btn-dark">Contact Us</a>
+        <a href="/contact" class="btn btn-dark">Contact Us</a>
       </div>
       <div class="mobiledevelopment">
         <img class="mobile-img" src="@/assets/services.svg" />
@@ -245,7 +245,7 @@ font-size: 1.8rem;
     margin-top: 0;
   }
   .layout-dark {
-  height: 175rem;
+  height: 178rem;
 }
   .box-1 {
     width: auto;
